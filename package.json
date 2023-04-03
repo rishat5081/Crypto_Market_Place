@@ -1,0 +1,39 @@
+{
+  "name": "yearn-cash",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^0.26.1",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^6.0.1",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ecpair": "^2.0.1",
+    "ethers": "^5.6.2",
+    "express": "~4.16.1",
+    "hdkey": "^2.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.6.0",
+    "md5": "^2.3.0",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "morgan": "~1.9.1",
+    "node-coinmarketcap": "^0.2.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.2",
+    "tiny-secp256k1": "^2.2.1",
+    "twilio": "^3.75.1",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
